@@ -46,7 +46,10 @@
     font-style: normal;
     font-weight: 700;
     font-size: 31.7762px;
-    line-height: 38px;
+
+    justify-content: center;
+    text-align: center;
+    line-height: 75px;
 
     color: #FFFFFF;
 
@@ -72,7 +75,31 @@
     font-style: normal;
     font-weight: 700;
     font-size: 31.7762px;
+
+    justify-content: center;
+    text-align: center;
+    line-height: 75px;
+
+    color: #FFFFFF;
+
+    width: 492.53px;
+    height: 77.68px;
+    display: block;
+    
+    background: #F6AD3C;
+    border: 2.64802px solid #FFFFFF;
+}
+
+a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.7762px;
     line-height: 38px;
+
+    justify-content: center;
+    text-align: center;
+    line-height: 75px;
 
     color: #FFFFFF;
 
