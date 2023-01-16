@@ -1,0 +1,134 @@
+.header-img{
+    position: absolute;
+    width: 525.75px;
+    height: 97px;
+    left: 68px;
+    top: 17px;
+
+}
+
+.footer-img{
+    position: absolute;
+    width: 1589.95px;
+    height: 633px;
+    left: 0px;
+    top: 1361px;
+}
+
+.section-1-title{
+    position: absolute;
+    width: 334px;
+    height: 42px;
+    left: 84px;
+    top: 519.53px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35.3069px;
+    line-height: 42px;
+    
+    color: #24A29F;
+    
+}
+
+.section-1{
+    position: absolute;
+    width: 492px;
+    height: 540px;
+    left: 122px;
+    top: 624px;
+}
+
+.section-1-button{
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.7762px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+
+    width: 492.53px;
+    height: 77.68px;
+    display: block;
+    
+    background: #24A29F;
+    border: 2.64802px solid #FFFFFF;
+}
+
+.section-2{
+    position: absolute;
+    width: 492.53px;
+    height: 233.03px;
+    left: 727.47px;
+    top: 624px;
+}
+
+.section-2-button{
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.7762px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+
+    width: 492.53px;
+    height: 77.68px;
+    display: block;
+    
+    background: #F6AD3C;
+    border: 2.64802px solid #FFFFFF;
+}
+
+.section-2-title{
+    position: absolute;
+    width: 361px;
+    height: 43px;
+    left: 727px;
+    top: 519px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35.3069px;
+    line-height: 42px;
+    
+    color: #F6AD3C;
+}
+
+h1{
+    position: absolute;
+    width: 453px;
+    height: 53px;
+    left: 89px;
+    top: 191px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44.5138px;
+    line-height: 53px;
+
+    color: #000000;
+
+}
+
+p{
+    position: absolute;
+    width: 1433px;
+    height: 145px;
+    left: 84px;
+    top: 283px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
