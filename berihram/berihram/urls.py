@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls')),
     path('riyal', include('riyal.urls')),
+    path('swift-same-day', include('swiftsd.urls')),
 ]

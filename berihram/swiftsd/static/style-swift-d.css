@@ -1,0 +1,143 @@
+#header-img{
+    width: 660px;
+    height: 142px;
+    left: 0px;
+    top: 0px;
+}
+
+h1{
+
+    position: absolute;
+    width: 311px;
+    height: 53px;
+    left: 631px;
+    top: 198px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44.5138px;
+    line-height: 53px;
+
+    color: #F6AD3C;
+}
+
+h2{
+
+    position: absolute;
+    width: 329px;
+    height: 25px;
+    left: 622px;
+    top: 260px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.6372px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+
+}
+
+#intro{
+
+    position: absolute;
+    width: 1227px;
+    height: 123px;
+    left: 173px;
+    top: 348px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.6372px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+
+#back{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 141px;
+    height: 47.39px;
+    left: 713px;
+    top: 3254px;
+    
+    background: #F6AD3C;
+    border: 1px solid #FFFFFF;
+    border-radius: 3.55462px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.1919px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+
+}
+
+#a{
+    position: absolute;
+    width: 951.5px;
+    height: 611px;
+    left: 311px;
+    top: 485px;
+}
+
+#b{
+    position: absolute;
+    width: 938px;
+    height: 481.5px;
+    left: 318px;
+    top: 1096px;
+}
+
+#c{
+    position: absolute;
+    width: 959.5px;
+    height: 318.5px;
+    left: 318px;
+    top: 1643px;
+}
+
+#d{
+    position: absolute;
+    width: 988px;
+    height: 352px;
+    left: 304px;
+    top: 1962px;
+}
+
+#e{
+    position: absolute;
+    width: 960px;
+    height: 491.5px;
+    left: 304px;
+    top: 2352px;
+    
+}
+
+#f{
+    position: absolute;
+    width: 893.5px;
+    height: 297px;
+    left: 337px;
+    top: 2844px;
+}
+
+#footer-img{
+    position: absolute;
+    width: 1589.95px;
+    height: 633px;
+    left: -8px;
+    top: 3490px;
+}
+
