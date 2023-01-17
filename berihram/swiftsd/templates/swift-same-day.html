@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     {% load static %} 
-    <link rel="stylesheet" href="{% static 'style-swift-d.css'%}">
+    <img class="mb-5" src="{% static 'head-alt.png' %}" alt="head-alt">
 
-	<head>
-		<title>Swift same day</title>
-        <img id="header-img" src="{% static 'head-alt.png' %}" alt="header">
-        
-	</head>
+    <title>Swift Same Day</title>
+</head>
 
-	<body>
-		<h1>Swift Same Day</h1>
-        <h2> Masukan Sub-judul untuk section ini</h2>
-		<p id="intro"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-        <img id="a" src="{% static '1.png' %}" alt="1">
-        <img id="b" src="{% static '2.png' %}" alt="2">
-        <img id="c" src="{% static '3.png' %}" alt="3">
-        <img id="d" src="{% static '4.png' %}" alt="4">
-        <img id="e" src="{% static '5.png' %}" alt="5">
-        <img id="f" src="{% static '6.png' %}" alt="6">
-        
+<body>
+    
+    <div class="container" >
+        <div class="row">
+            <div class="col-10 mx-auto mt-5 text-center">
+                
+                
 
-        <button id="back" onclick="history.back()">Kembali</button>
+                <h1 class="blockquote" style="font-family: 'Lato';font-style: normal;font-weight: 700;font-size: 44.5138px;color: #F6AD3C;">Swift Same Day</h1>
+                <h1 class="mb-5" id="subtitle" style="font-family: 'Lato';font-style: normal;font-weight: 400;font-size: 20.6372px;color: #000000;">This is the sub-title</h1>
 
-	</body>
+                <h1 class="mb-5" style="font-family: 'Lato';font-style: normal;font-weight: 400;font-size: 20.6372px;line-height: 25px;color: #000000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+                
+                <img class="mb-5" src="{% static 'content-swift-same-day.png' %}" alt="head-alt">
 
-    <img id="footer-img" src="{% static 'fake-footer.png' %}" alt="footer">
+                <button class = "mb-5" style="background: #F6AD3C;border: 1px solid #FFFFFF;border-radius: 3.55462px;font-family: 'Lato';font-style: normal;font-weight: 700;font-size: 26.1919px;line-height: 31px;color: #FFFFFF;" onclick="history.back()">Kembali</button>
+
+            </div>
+        </div>
+    </div>
 
     
 
+</body>
 </html>

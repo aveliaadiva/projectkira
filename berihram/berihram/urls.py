@@ -21,4 +21,6 @@ urlpatterns = [
     path('', include('main.urls')),
     path('riyal', include('riyal.urls')),
     path('swift-same-day', include('swiftsd.urls')),
+    path('tabungan-haji-umroh', include('tabungan.urls')),
+    path('swift', include('swift.urls')),
 ]
