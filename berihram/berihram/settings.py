@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'swift',
     'swiftsd',
     'tabungan',
+    'card',
     'embed_video',
 ]
 

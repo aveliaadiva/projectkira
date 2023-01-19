@@ -23,4 +23,5 @@ urlpatterns = [
     path('swift-same-day', include('swiftsd.urls')),
     path('tabungan-haji-umroh', include('tabungan.urls')),
     path('swift', include('swift.urls')),
+    path('card', include('card.urls')),
 ]
