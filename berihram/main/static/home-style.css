@@ -129,33 +129,49 @@ a{
 
 h1{
     position: absolute;
-    width: 453px;
-    height: 53px;
-    left: 89px;
-    top: 191px;
-
+    width: 1063px;
+    height: 48px;
+    left: 87px;
+    top: 221px;
+    
     font-family: 'Lato';
     font-style: normal;
     font-weight: 800;
-    font-size: 44.5138px;
-    line-height: 53px;
+    font-size: 31.6069px;
+    line-height: 48px;
 
-    color: #000000;
+    text-align: center;
+
+    /* identical to box height */
+    
+    background: #24A29F;
+    
+    color: #ffffff;
 
 }
 
 p{
     position: absolute;
     width: 1433px;
-    height: 145px;
+    height: 87px;
     left: 84px;
     top: 283px;
-
+    
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-
+    
     color: #000000;
+}
+
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
