@@ -9,3 +9,7 @@ def syarat(request):
 
 def rekan(request):
 	return render(request, 'rekan-page.html')
+
+	
+def gallery(request):
+	return render(request, 'gallery-page.html')

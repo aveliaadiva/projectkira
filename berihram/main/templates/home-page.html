@@ -4,12 +4,13 @@
     {% load static %} 
     <link rel="stylesheet" href="{% static 'home-style.css'%}">
 
+
 	<head>
 		<title>Berihram</title>
         <img class="header-img" src="{% static 'header.png' %}" alt="header">
 	</head>
 
-	<body>
+	<body style="background-image:url('{% static 'bg-islami.png' %}');">
 		<h1>Memberi Manfaat dan keberkahan melalui program Berihram bersama BSI</h1>
 		<p>
             Assalamualaikum wr. wb. sahabat BSI<br> 
@@ -33,14 +34,17 @@
             <a class = "section-2-button" type="button" href="riyal">Penukaran riyal</a>
             <a class = "section-2-button" type="button" href="syarat-haji">Persyaratan haji</a>
             <a class = "section-2-button" type="button" href="rekan">Daftar KBIH rekanan</a>
-            <a class = "section-2-button" type="button">Galeri</a>
+            <a class = "section-2-button" type="button" href="galeri">Galeri</a>
 
             <!--href="https://wa.me/6281383320220"-->
+
+            
         </div>
         
 	</body>
 
     <footer style="background:background: #24A29F;">
+        <img style="position: absolute;width: 531px;height: 545px;left: 974px;top: 842px;" src="{% static 'aisyah-kw.png' %}" alt="aisyah">
         <img class="footer-img" src="{% static 'fake-footer.png' %}" alt="footer">
     </footer>
 
