@@ -3,3 +3,6 @@ from django.http import HttpResponse
 
 def index(request):
 	return render(request, 'page.html')
+
+def syarat(request):
+	return render(request, 'syarat-page.html')
