@@ -32,6 +32,8 @@ ALLOWED_HOSTS = ['berihram-with-bsi.up.railway.app', '127.0.0.1']
 
 CSRF_TRUSTED_ORIGINS = ['https://berihram-with-bsi.up.railway.app/']
 
+CSRF_COOKIE_SECURE = False
+
 
 
 # Application definition
