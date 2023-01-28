@@ -27,11 +27,15 @@
 
                 {% for item in videos %}
 
-                    <div class="px-3">{% video item.url '854x480'%}
+                    <div class="px-3">
+
+                        <iframe width="854" height="480" src="{{ item.url }}" loading="lazy" frameborder="0" allowfullscreen=""></iframe>
+
                         <div class="px-3 mb-5">
                             {{item.title}}
                         </div>
                     </div>
+
 
                 {% endfor %}
 
