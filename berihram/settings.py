@@ -28,9 +28,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 #DEBUG = False
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['berihram-with-bsi.up.railway.app', '127.0.0.1']
+ALLOWED_HOSTS = ['berihram-with-bsi.up.railway.app','berihram-with-bsi2.up.railway.app', '127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['https://berihram-with-bsi.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://berihram-with-bsi.up.railway.app','https://berihram-with-bsi2.up.railway.app']
 
 # CSRF_COOKIE_SECURE = False
 
